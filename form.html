@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/s.css">
+    <link rel="shortcut icon" href="style/aaa.ico" type="image/x-icon">
+    <style>
+        label{
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <Header>
+        
+    </Header>
+    <main>
+        <h3>Please Fill Up The Form</h3>
+        <form>
+            <label for="name">Your Name:
+                <input id="name" type="text" placeholder="YourName">
+            </label>
+
+            <label for="email">Your Email:
+                <input type="email" id="email" placeholder="Your Email">
+            </label>
+            <label for="phone">Phone Num:
+                <input type="Phone Number" id="phone" placeholder="Phone Number">
+            </label>
+            <fieldset style="width: 200px;">
+                <legend>Pick Gender</legend>
+                    <label for="Man" class="b">
+                        <input type="radio" name="Gender" id="Man">Man
+                    </label>
+                    <label for="Women" class="b">
+                        <input type="radio" name="Gender" id="Women">Women
+                    </label>
+                    <label for="Others" class="b">
+                        <input type="radio" name="Gender" id="Others">Others
+                    </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
